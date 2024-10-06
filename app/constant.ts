@@ -278,7 +278,6 @@ const openaiModels = [
   "gpt-4o",
   "chatgpt-4o-latest",
   "gpt-4o-mini",
-  "dall-e-3",
   "o1-mini",
   "o1-preview",
   "gemini-1.5-pro-latest",
