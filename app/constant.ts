@@ -296,6 +296,8 @@ const openaiModels = [
   "claude-3-haiku-20240307",
   "claude-3-5-sonnet-20240620",
   "claude-3-5-sonnet-20241022",
+  "claude-3-5-sonnet-latest",
+  "claude-3-opus-latest",
 ];
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
