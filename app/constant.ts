@@ -524,17 +524,6 @@ export const DEFAULT_MODELS = [
       sorted: 4,
     },
   })),
-  ...deepseekModels.map((name) => ({
-    name,
-    available: true,
-    sorted: seq++,
-    provider: {
-      id: "deepseek",
-      providerName: "DeepSeek",
-      providerType: "deepseek",
-      sorted: 13,
-    },
-  })),
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;
