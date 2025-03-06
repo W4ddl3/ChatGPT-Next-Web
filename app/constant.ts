@@ -489,6 +489,8 @@ const openaiModels = [
   "gemini-1.5-pro-latest",
   "gemini-1.5-flash-latest",
   "gemini-2.0-flash",
+  "deepseek-chat",
+  "deepseek-reasoner"
 ];
 
 const anthropicModels = [
@@ -497,9 +499,6 @@ const anthropicModels = [
   "claude-3-5-sonnet-latest",
   "claude-3-7-sonnet-latest",
 ];
-
-const deepseekModels = ["deepseek-chat", "deepseek-reasoner"];
-
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
 export const DEFAULT_MODELS = [
